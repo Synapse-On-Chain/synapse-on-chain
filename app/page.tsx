@@ -7,11 +7,13 @@ import Footer from "@/component/landing/Footer";
 import Hero from "@/component/landing/Hero";
 import { NewsAndAnnouncements } from "@/component/landing/NewsAndAnnounsement";
 import ProgramSection from "@/component/landing/Program";
+import Header from "@/component/landing/Header";
 
 
 export default function Home() {
   return (
     <div>
+      <Header />
       <Hero />
       <AboutSection />
       <ProgramSection />

@@ -1,4 +1,3 @@
-
 import SectionWithCards from "./SectionWithCards";
 
 export const EcosystemMomentum = () => {

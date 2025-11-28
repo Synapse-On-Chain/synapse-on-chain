@@ -25,6 +25,7 @@ export const NewsAndAnnouncements = () => {
   ];
 
   return (
+    <div id="news">
     <SectionWithCards
       title="News & announcements"
       description="Follow the Synapse narrative as we onboard the next generation into Web3 with meaningful incentives."
@@ -34,5 +35,6 @@ export const NewsAndAnnouncements = () => {
       bg="linear-gradient(to bottom, #0B061D, #0F0A1F)"
       columns="md:grid-cols-3"
     />
+    </div>
   );
 };
