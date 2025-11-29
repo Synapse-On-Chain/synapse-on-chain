@@ -59,7 +59,7 @@ const Header = () => {
               Log in
             </a>
             <a
-              href="#cta"
+              href="/signup"
               className="rounded-full bg-pink text-white px-4 py-2 font-medium hover:brightness-110"
             >
               Get Started
@@ -140,7 +140,7 @@ const Header = () => {
             Log in
           </a>
           <a
-            href="#cta"
+            href="/signup"
             onClick={() => setOpen(false)}
             className="rounded-full bg-pink text-white px-4 py-2 font-medium text-center"
           >

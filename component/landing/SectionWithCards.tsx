@@ -29,7 +29,7 @@ const SectionWithCards = ({
   onAction,
   cards = [],
   bg = "#120024",
-  columns = "md:grid-cols-2 lg:grid-cols-4",
+  columns = "md:grid-cols-2 lg:grid-cols-1 lg:grid-rows-4",
   tagSize = "small",
 }: SectionWithCardsProps) => {
   return (

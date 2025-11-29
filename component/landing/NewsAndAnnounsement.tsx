@@ -25,16 +25,16 @@ export const NewsAndAnnouncements = () => {
   ];
 
   return (
-    <div id="news">
-    <SectionWithCards
-      title="News & announcements"
-      description="Follow the Synapse narrative as we onboard the next generation into Web3 with meaningful incentives."
-      actionText="Explore the newsroom"
-      onAction={() => console.log("Navigate to newsroom")}
-      cards={updates}
-      bg="linear-gradient(to bottom, #0B061D, #0F0A1F)"
-      columns="md:grid-cols-3"
-    />
+    <div className="bg-black" id="news">
+      <SectionWithCards
+        title="News & announcements"
+        description="Follow the Synapse narrative as we onboard the next generation into Web3 with meaningful incentives."
+        actionText="Explore the newsroom"
+        onAction={() => console.log("Navigate to newsroom")}
+        cards={updates}
+        bg="linear-gradient(to bottom, #0B061D, #0F0A1F)"
+        columns="md:grid-cols-3"
+      />
     </div>
   );
 };

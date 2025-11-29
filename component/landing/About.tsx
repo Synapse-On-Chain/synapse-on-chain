@@ -37,14 +37,14 @@ const AboutSection = () => {
   ];
 
   return (
-    <div className="overflow-x-hidden" id="about">
+    <div className="" id="about">
       <SectionWithCards
         bg="#120024"
         title="Scalable learning, instant rewards"
         description="Gamified modules, streak multipliers, and automated SYN rewards create a feedback loop that keeps builders motivated from onboarding through advanced specialization."
         actionText="Join the Beta waitlist"
         cards={cards}
-        columns="md:grid-cols-2 lg:grid-cols-4"
+        columns="grid-cols-1  md:grid-cols-2 lg:grid-cols-4"
       />
     </div>
   );

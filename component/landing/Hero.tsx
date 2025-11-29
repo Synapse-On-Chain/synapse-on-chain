@@ -20,18 +20,18 @@ const Hero = () => {
       className="relative min-h-screen w-full bg-[#240242] overflow-hidden flex items-center justify-center"
     >
       {/* Background Images Side-by-Side */}
-      <div className="absolute inset-0 flex flex-col lg:flex-row w-full">
+      <div className="absolute inset-0 flex flex-col items-center justify-center lg:flex-row w-full">
         <div className="hidden md:block lg:basis-1/2 h-full bg-[url('/landing/hero-bg-2.png')] bg-cover bg-no-repeat" />
-        <div className="hidden lg:block bg-gray-200/10 opacity-90 backdrop-blur-lg lg:w-px h-full"></div>
-        <div className="w-full lg:basis-1/2 h-full bg-[url('/landing/hero-bg-1.png')] bg-cover bg-no-repeat" />
+        {/* <div className="hidden lg:block bg-gray-200/10 opacity-90 backdrop-blur-lg lg:w-px h-full"></div> */}
+        <div className="w-[200%] md:w-full relative right-10 md:right-0 lg:basis-1/2 h-full bg-[url('/landing/hero-bg-1.png')] bg-cover bg-no-repeat" />
       </div>
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-linear-to-b from-purple/20 to-purple/20"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center pt-40 md:pt-0 max-w-7xl px-5 text-soft-lavender">
-        <p className="text-[12px] tracking-[0.25em] text-soft-lavender font-medium mb-6 border border-pink/30 rounded-full px-4 py-1 w-fit mx-auto">
+      <div className="relative z-10 text-center pt-40 max-w-7xl px-5 text-soft-lavender">
+        <p className="text-[12px] bg-gray-100/20 backdrop-blur-md tracking-[0.25em] text-soft-lavender font-medium mb-6 border border-pink/30 rounded-full px-4 py-1 w-fit mx-auto">
           SYNAPSE ON CHAIN
         </p>
 
